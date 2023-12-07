@@ -21,7 +21,7 @@ protoc --plugin=protoc-gen-grpc-java=$PATH_TO_PLUGIN -I=$SRC_DIR
 GrpcServer 클래스에서 GRPC 서버를 구동합니다. 서버는 클라이언트의 요청을 수신하고 처리합니다.
 
 
-![img.png](img.png)
+![img.png](https://github.com/chlgkrws/java-grpc-demo/blob/main/github/img.png)
 
 ### 3. GRPC 클라이언트 실행
 GrpcClient 클래스를 사용하여 서버에 요청을 보내고 응답을 받습니다.
